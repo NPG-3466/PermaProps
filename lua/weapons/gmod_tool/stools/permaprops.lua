@@ -15,13 +15,13 @@
 */
 
 TOOL.Category		=	"Props Tool"
-TOOL.Name			=	"PermaProps"
+TOOL.Name		=	"PermaProps"
 TOOL.Command		=	nil
 TOOL.ConfigName		=	""
 
 if CLIENT then
 	language.Add("Tool.permaprops.name", "PermaProps")
-	language.Add("Tool.permaprops.desc", "Save a props permanently")
+	language.Add("Tool.permaprops.desc", "Save props permanently")
 	language.Add("Tool.permaprops.0", "LeftClick: Add RightClick: Remove Reload: Update")
 
 	surface.CreateFont("PermaPropsToolScreenFont", { font = "Arial", size = 40, weight = 1000, antialias = true, additive = false })
